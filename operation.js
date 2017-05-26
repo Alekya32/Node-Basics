@@ -46,8 +46,8 @@ console.log(outwrite.toString())
 		throw err;
 		console.log("File deleted");
 	}
-}) */
-
+}) 
+*/
 //Delete file unlinkSync
-/*fs.unlinkSync('outwrite.txt',outwrite)
-console.log("Deleting file....")*/
+fs.unlinkSync('outwrite.txt',outwrite)
+console.log("Deleting file....")
